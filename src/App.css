@@ -1,0 +1,266 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.lel {
+  font-size: 1.35rem;
+  width: 500px;
+  position: absolute;
+  left: 100px;
+  top: 190px;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: #fff;
+}
+.logo {
+  font-family: "Teko", sans-serif;
+  position: absolute;
+  right: 800px;
+  top: 10px;
+  letter-spacing: 6px;
+  font-size: 2.5rem;
+}
+
+body {
+  background-color: #2a2a2a;
+  color: red;
+  font-family: sans-serif;
+}
+video {
+  height: 750px;
+  width: 100%;
+  position: relative;
+  bottom: 200px;
+  filter: brightness(50%);
+}
+
+.job {
+  font-family: "Staatliches", cursive;
+  letter-spacing: 6px;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  font-size: 3.15rem;
+}
+.red {
+  position: absolute;
+  top: 198px;
+  left: 140px;
+  width: 60px;
+  height: 5px;
+  background-color: red;
+}
+
+#btn {
+  position: absolute;
+  top: 365px;
+  right: 550px;
+  width: 150px;
+  height: 40px;
+  background-color: red;
+  border: transparent;
+  color: #fff;
+  font-size: 1.25rem;
+}
+#pf {
+  height: 80px;
+  position: relative;
+  bottom: 250px;
+  right: 10px;
+}
+
+.project {
+  position: relative;
+  bottom: 240px;
+  color: #fff;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 6px;
+  font-size: 3.15rem;
+}
+
+#projects {
+  height: 200px;
+  position: relative;
+  bottom: 200px;
+  left: 10px;
+  border-radius: 100px;
+}
+#eins {
+  height: 200px;
+  position: relative;
+  bottom: 0px;
+  right: 200px;
+  border-radius: 100px;
+  display: inline;
+}
+#project-1 {
+  height: 200px;
+  position: relative;
+  bottom: 400px;
+  left: 180px;
+  border-radius: 100px;
+}
+#project-2 {
+  height: 200px;
+  position: relative;
+  bottom: 330px;
+  right: 170px;
+  border-radius: 150px;
+}
+#project-3 {
+  height: 200px;
+  position: relative;
+  bottom: 530px;
+  left: 200px;
+  border-radius: 100px;
+}
+
+.skill {
+  position: relative;
+  bottom: 40px;
+  color: #fff;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 6px;
+  font-size: 3.15rem;
+}
+
+.icon {
+  height: 300px;
+  position: relative;
+  left: 50px;
+}
+.contact {
+  position: relative;
+
+  color: #fff;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 6px;
+  font-size: 3.15rem;
+}
+
+#images img {
+  height: 140px;
+  transform: rotate(-45deg);
+  border-radius: 70px;
+  position: relative;
+  right: 200px;
+  bottom: 60px;
+  padding: 0px 10px;
+}
+#images {
+  display: flex;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+textarea {
+  /* width: 100%; Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+#button {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+
+  border: 3px solid rgb(161, 153, 153);
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+#button:hover {
+  background-color: rgb(221, 90, 90);
+}
+
+/* Add a background color and some padding around the form */
+#alles {
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 400px;
+  position: relative;
+  left: 30%;
+  padding: 20px;
+  border-radius: 150px;
+}
+label {
+  color: #000;
+  font-family: sans-serif;
+}
+#contact-e {
+  position: relative;
+  top: 40px;
+  color: #fff;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 6px;
+  font-size: 3.15rem;
+  margin-bottom: 90px;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(26, 24, 24);
+  height: 75px;
+  margin-top: 150px;
+}
+footer h1 {
+  color: #fff;
+  font-size: 0.95rem;
+  position: relative;
+  top: 40px;
+}
+.fahig {
+  position: relative;
+  bottom: 400px;
+}
+
+.alles-a {
+  position: relative;
+  bottom: 400px;
+}
